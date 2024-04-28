@@ -1,5 +1,5 @@
 ---
-date: 2017-07-29 13:24:49
+date: 2023-07-29 13:24:49
 layout: post
 title: Smoke alert
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
