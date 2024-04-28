@@ -1,0 +1,41 @@
+translations:
+  text:
+    new_post: "Nueva publicación"
+    see_also: "Vea"
+    search: "Buscar"
+    author: "Autor"
+    share: "Compartir"
+    comments: "Comentarios"
+  button:
+    read_now: "Leer ahora"
+    share_on_twitter: "Compartir en X"
+    share_on_facebook: "Compartir en Facebook"
+  pagination:
+    page: "Página"
+    of: "de"
+    next_page: "Siguiente Página"
+    next_post: "Anterior Página"
+  recommendation:
+    text: "Leemos algo más?"
+    back_btn: "Volver arriba"
+  error_404:
+    title: "No encontrado :("
+    message: "Disculpa. No puedo encontrar lo que buscabas."
+    image_alt: "404 - Página no encontrada"
+  contact:
+    title: "Escríbame"
+    subject: "Contacto nuevo!"
+    submit_btn: "Enviar"
+    placeholders:
+      name: "Nombre"
+      email: "Correo"
+      message: "Tu mensaje"
+    errors:
+      locale: "es"
+      empty_name: "Se requiere un nombre"
+      empty_email: "Se requiere un correo"
+      invalid_email: "El correo es inválido"
+      empty_message: "El mensaje es inválido"
+    after_send:
+      title: "Mensaje enviado!"
+      message: "Gracias por dejarme un mensaje. Lo contestaré apenas pueda."
