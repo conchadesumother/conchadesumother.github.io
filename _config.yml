@@ -11,11 +11,11 @@ tags:
   - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: Inicio
     url: /
-  - title: About
+  - title: Acerca de
     url: /about
-  - title: Contact
+  - title: Contacto
     url: /contact
   - title: Feed
     url: /feed.xml
@@ -32,7 +32,7 @@ formspree_form_id: formspree_form_id
 github_username: github_username
 facebook_username: facebook_username
 twitter_username: twitter_username
-instagram_username: instagram_username
+instagram_username: chrisdelugano
 linkedin_username: linkedin_username
 medium_username: medium_username
 
