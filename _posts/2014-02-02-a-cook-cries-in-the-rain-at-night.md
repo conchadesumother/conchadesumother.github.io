@@ -1,5 +1,5 @@
 ---
-date: 2017-06-04 12:00:00
+date: 2023-06-04 12:00:00
 layout: post
 title: A cook cries in the rain at night
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
