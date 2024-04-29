@@ -2,7 +2,9 @@
     <h3>{{ site.translations.text.share | default: "Share" }}</h3>
     <a aria-label="{{ site.translations.button.share_on_twitter | default: 'Share on Twitter' }}" href="https://twitter.com/intent/tweet?text=&quot;{{ page.description }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={{ page.tags | join: ',' }}"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="{{ site.translations.button.share_on_twitter | default: 'Share on Twitter' }}">
-        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg>
     </a>
     <a aria-label="{{ site.translations.button.share_on_facebook | default: 'Share on Facebook' }}" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="{{ site.translations.button.share_on_facebook | default: 'Share on Facebook' }}">
