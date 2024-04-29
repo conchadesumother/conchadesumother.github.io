@@ -120,15 +120,6 @@ multilingual:
       
 language_default: es
 
-collections_dir: content
-collections:
-  de:
-    output: true
-    permalink: /:collection/:slug
-  en:
-    output: true
-    permalink: /:collection/:slug
-
     
 # Theme
 version: v3.1.2
