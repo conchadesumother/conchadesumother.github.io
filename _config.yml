@@ -110,5 +110,13 @@ exclude: [
   'README.md'
 ]
 
+multilingual:
+  default: es
+  languages:
+    es:
+      lang: es
+      label: Español
+      dir: es
+
 # Theme
 version: v3.1.2
