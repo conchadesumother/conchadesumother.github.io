@@ -9,7 +9,7 @@ layout: null
             {% if page.layout == 'main' %}
                 <changefreq>weekly</changefreq>
                 <priority>1</priority>
-                <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+                <lastmod>{{ site.time | date: "%d/%m/%Y" }}</lastmod>
             {% else %}
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -21,7 +21,7 @@ layout: null
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+            <lastmod>{{ post.date | date: "%d/%m/%Y" }}</lastmod>
         </url>
     {% endfor %}
     {% for author in site.authors %}
