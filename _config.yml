@@ -117,9 +117,6 @@ multilingual:
       lang: es
       label: Español
       dir: es
-      
-language_default: es
-
     
 # Theme
 version: v3.1.2
