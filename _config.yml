@@ -90,6 +90,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+  - jekyll-multilingual
 
 # Exclude my node related stuff
 exclude: [
