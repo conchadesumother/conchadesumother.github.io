@@ -1,5 +1,5 @@
 ---
-date: 2025-04-21 12:26:40
+date: 2025-06-06 12:26:40
 layout: post
 title: Candy, candies, candy!
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
