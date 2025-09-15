@@ -13,10 +13,12 @@ show_hero: true
 menu:
   - title: Inicio
     url: /
+  - title: Portafolio
+    url: /portafolio
   - title: Acerca de
-    url: /about
+    url: /acerca
   - title: Contacto
-    url: /contact
+    url: /contacto
   - title: Feed
     url: /feed.xml
 email: youremail@test.com
@@ -119,4 +121,4 @@ multilingual:
       dir: es
     
 # Theme
-version: v3.1.2
+version: blog de pruebas
