@@ -23,9 +23,9 @@
             <svg><use xlink:href="#icon-facebook"></use></svg>
           </a>
         {% endif %}
-        {% if author.twitter_username %}
-          <a href="https://twitter.com/{{ author.twitter_username }}" title="Twitter">
-            <svg><use xlink:href="#icon-twitter"></use></svg>
+                {% if author.x_username %}
+          <a href="https://x.com/{{ author.x_username }}" title="X">
+            <svg><use xlink:href="#icon-x"></use></svg>
           </a>
         {% endif %}
         {% if author.medium_username %}
