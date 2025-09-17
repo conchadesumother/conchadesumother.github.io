@@ -7,6 +7,7 @@ translations:
     share: "Compartir"
     comments: "Comentarios"
   button:
+    portafolio: "Portafolio"
     read_now: "Leer ahora"
     share_on_twitter: "Compartir en X"
     share_on_facebook: "Compartir en Facebook"
@@ -16,7 +17,7 @@ translations:
     next_page: "Siguiente Página"
     next_post: "Anterior Página"
   recommendation:
-    text: "Leemos algo más?"
+    text: "¿Leemos algo más?"
     back_btn: "Volver arriba"
   error_404:
     title: "No encontrado :("
