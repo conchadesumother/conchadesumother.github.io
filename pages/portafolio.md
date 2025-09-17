@@ -22,7 +22,7 @@ permalink: /portafolio/
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign hero_post = posts.first %}
-        <section class="hero" style="background-image: url(https://s.calendarr.com/upload/datas/pr/of/profesor-pijama_c.jpg)">
+        <section class="hero reduced-height" style="background-image: url(https://s.calendarr.com/upload/datas/pr/of/profesor-pijama_c.jpg)">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
@@ -176,3 +176,5 @@ permalink: /portafolio/
   }
 }
 </script>
+
+<link rel="stylesheet" href="/assets/css/custom.css">
