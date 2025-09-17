@@ -32,7 +32,7 @@ layout: main
             <h1 class="title">{{ hero_post.title }}</h1>
             <p class="description">{{ hero_post.subtitle }}</p>
             <div class="buttons">
-                <a href="{{ site.url | prepend: site.baseurl }}" role="button" class="button">
+                <a href="{{ '/portafolio' | prepend: site.baseurl }}" role="button" class="button">
                     <svg><use xlink:href="#icon-read"></use></svg>
                     <span>{{ site.translations.button.portafolio | default: "Portafolio" }}</span>
                 </a>
