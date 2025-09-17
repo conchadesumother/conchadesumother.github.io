@@ -226,10 +226,6 @@
   transition: all 0.3s;
   position: relative;
   z-index: 1;
-  
-$itemMinWidth: 250px;
-$rowMargin: 15px;
-$maxItemsPerRow: 4;
 
   @include media(">=sm") {
     margin: 0 rem($itemMargin) rem(30px);
