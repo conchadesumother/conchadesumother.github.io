@@ -10,7 +10,7 @@ permalink: /portafolio/
     {% assign all_posts = site.posts %}
 {% endif %}
 
-{% assign hero_post = all_posts | where:"hero2",true | first %}
+{% assign hero_post = all_posts | where:"hero",true | first %}
 
 {% if hero_post %}
     {% assign posts = all_posts | where_exp:"post","post.hero != true" %}
