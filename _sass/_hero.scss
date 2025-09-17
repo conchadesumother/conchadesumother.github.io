@@ -34,12 +34,12 @@
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    width: 100%;
+    width: 160%;
     height: 100%;
     padding-left: 10%;
 
     @include media(">=sm") {
-      width: 60%;
+      width: 50%;
     }
 
     .date {
