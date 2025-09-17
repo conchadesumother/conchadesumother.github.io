@@ -4,8 +4,6 @@ title: Portafolio
 permalink: /portafolio/
 ---
 
-¡Bienvenidos a mi portafolio! Aquí encontrarás una selección de mis trabajos y proyectos. Haz clic en las imágenes para ver los detalles de cada uno.
-
 {% if site.paginate %}
 {% assign posts = site.posts | where_exp:"post","post.tags contains 'portafolio'" %}
 {% endif %}
