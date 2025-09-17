@@ -5,13 +5,17 @@ permalink: /portafolio/
 ---
 
 {% if site.paginate %}
-{% assign posts = site.posts | where_exp:"post","post.tags contains 'blog" %}
+    {% assign all_posts = paginator.posts %}
+{% else %}
+    {% assign all_posts = site.posts %}
 {% endif %}
 
-{% if site.show_hero and paginator == nil or paginator.page == 1 %}
-    {% assign offset = 1 %}
+{% assign hero_post = all_posts | where:"hero2",true | first %}
+
+{% if hero_post %}
+    {% assign posts = all_posts | where_exp:"post","post.hero != true" %}
 {% else %}
-    {% assign offset = 0 %}
+    {% assign posts = all_posts %}
 {% endif %}
 
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
