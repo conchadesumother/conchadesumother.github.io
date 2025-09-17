@@ -78,7 +78,7 @@ collections:
         name: "tags"
         hint: "Separate with commas. These will also be used as keywords for search engines."
         widget: "list"
-      - label: "Author"
+      - label: "Autor"
         name: "author"
         widget: "relation"
         collection: "authors"
@@ -271,7 +271,7 @@ collections:
             name: "medium_username"
             widget: "string"
             required: false
-      - label: "Theme"
+      - label: "Tema"
         name: "theme"
         file: "src/yml/theme.yml"
         fields:
@@ -327,7 +327,7 @@ collections:
                 name: "new_post"
                 widget: "string"
                 required: false
-              - label: "See also"
+              - label: "Vea también"
                 name: "seel_also"
                 widget: "string"
                 required: false
@@ -335,7 +335,7 @@ collections:
                 name: "search"
                 widget: "string"
                 required: false
-              - label: "Share"
+              - label: "Compartir"
                 name: "share"
                 widget: "string"
                 required: false
@@ -517,3 +517,23 @@ collections:
             required: false
 
 
+# ... otras configuraciones
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      # ... otros campos de post
+      
+  - name: "pages"
+    label: "Pages"
+    folder: "_pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "select", options: ["page", "portafolio"], default: "page"}
+      # ... otros campos de page
