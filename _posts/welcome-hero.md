@@ -6,8 +6,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image: https://i.ibb.co/ccfSKqvK/Gz7sd-AJXw-AAAm-AT.jpg
 optimized_image: https://i.ibb.co/ccfSKqvK/Gz7sd-AJXw-AAAm-AT.jpg
 category: life
-tags:
-  - code
 author: andia
 permalink: false
 is_generated: true
