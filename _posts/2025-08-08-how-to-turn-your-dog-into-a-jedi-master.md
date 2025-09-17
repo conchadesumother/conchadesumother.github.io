@@ -1,16 +1,14 @@
 ---
-date: 2025-08-03 12:26:40
+date: 2016 12:26:40
 layout: post
-title: How to turn your dog into a Jedi master
+title: Cenit.uno
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821648/theme8_knvabs.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821648/theme8_knvabs.jpg
-category: tutorial
+category: ilustración
 tags:
-  - jedi
-  - doggo
-  - starwars
+  - ilustración
 author: mranderson
 ---
 
