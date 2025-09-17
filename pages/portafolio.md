@@ -26,21 +26,8 @@ permalink: /portafolio/
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
-                <time datetime="{{ hero_post.date | date_to_xmlschema }}" class="date">
-                    {% if site.date_format == nil %}
-                        {{ hero_post.date | date: "%m.%d.%Y" }}
-                    {% else %}
-                        {{ hero_post.date | date: site.date_format }}
-                    {% endif %}
-                </time>
                 <h1 class="title">{{ hero_post.title }}</h1>
                 <p class="description">{{ hero_post.subtitle }}</p>
-                <div class="buttons">
-                    <a href="{{ hero_post.url | prepend: site.baseurl }}" role="button" class="button">
-                        <svg><use xlink:href="#icon-read"></use></svg>
-                        <span>{{ site.translations.button.read_now | default: "Read Now" }}</span>
-                    </a>
-                </div>
             </div>
         </section>
     {% endif %}
