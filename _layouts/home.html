@@ -8,7 +8,7 @@ layout: main
     {% assign posts = site.posts | where_exp:"post","post.is_generated != true" %}
 {% endif %}
 
-{% assign hero_post = site.posts | where:"permalink",false | first %}
+{% assign hero_post = site.posts | where:"is_generated",true | first %}
 
 {% if site.show_hero and paginator == nil or paginator.page == 1 %}
     {% assign offset = 1 %}
