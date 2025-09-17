@@ -22,12 +22,12 @@ permalink: /portafolio/
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign hero_post = posts.first %}
-        <section class="hero" style="background-image: url({{ hero_post.image }})">
+        <section class="hero" style="background-image: url(https://s.calendarr.com/upload/datas/pr/of/profesor-pijama_c.jpg)">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
-                <h1 class="title">"Hero prueba 2</h1>
-                <p class="description">"Hero prueba 3</p>
+                <h1 class="title">Portafolio</h1>
+                <p class="description">Una colección de mis proyectos que fusiona destreza técnica con visión creativa.</p>
             </div>
         </section>
     {% endif %}
