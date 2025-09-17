@@ -4,7 +4,7 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 collections:
-  - label: "Categories"
+  - label: "Categorías"
     name: "categories"
     folder: "category"
     create: true
@@ -14,11 +14,11 @@ collections:
     preview_path: "category/{{slug}}"
     extension: "md"
     fields:
-      - label: "Layout"
+      - label: "Capa"
         name: "layout"
         widget: "hidden"
         default: "category"
-      - label: "Title"
+      - label: "Título"
         name: "title"
         widget: "string"
       - label: "Slug"
@@ -347,7 +347,11 @@ collections:
             name: "button"
             widget: "object"
             fields:
-              - label: "Read Now"
+                - label: "Portafolio"
+                name: "portafolio"
+                widget: "string"
+                required: false
+              - label: "Leer ahora"
                 name: "read_now"
                 widget: "string"
                 required: false
