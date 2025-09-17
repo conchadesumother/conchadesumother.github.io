@@ -29,12 +29,6 @@ permalink: /portafolio/
         <div class="content">
             <h1 class="title">Portafolio</h1>
             <p class="description">Una colección de proyectos que fusiona innovación técnica con visión creativa.</p>
-            <div class="buttons">
-                <a href="{{ '/portafolio' | prepend: site.baseurl }}" role="button" class="button">
-                    <svg><use xlink:href="#icon-read"></use></svg>
-                    <span>{{ site.translations.button.portafolio | default: "Portafolio" }}</span>
-                </a>
-            </div>
         </div>
     </section>
 {% endif %}
