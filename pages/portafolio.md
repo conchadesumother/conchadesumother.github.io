@@ -5,7 +5,7 @@ permalink: /portafolio/
 ---
 
 {% if site.paginate %}
-{% assign posts = site.posts | where_exp:"post","post.tags contains 'portafolio'" %}
+{% assign posts = site.posts | where_exp:"post","post.tags contains 'blog" %}
 {% endif %}
 
 {% if site.show_hero and paginator == nil or paginator.page == 1 %}
