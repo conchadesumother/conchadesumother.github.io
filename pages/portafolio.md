@@ -6,8 +6,6 @@ permalink: /portafolio/
 
 ¡Bienvenidos a mi portafolio! Aquí encontrarás una selección de mis trabajos y proyectos. Haz clic en las imágenes para ver los detalles de cada uno.
 
-<br>
-
 {% if site.paginate %}
     {% assign posts = paginator.posts | where_exp:"post","post.is_generated != true" %}
 {% else %}
