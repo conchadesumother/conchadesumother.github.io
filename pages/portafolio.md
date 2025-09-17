@@ -26,8 +26,8 @@ permalink: /portafolio/
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
-                <h1 class="title">{{ hero_post.title }}</h1>
-                <p class="description">{{ hero_post.subtitle }}</p>
+                <h1 class="title">"Hero prueba 2</h1>
+                <p class="description">"Hero prueba 3</p>
             </div>
         </section>
     {% endif %}
