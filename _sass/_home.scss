@@ -255,18 +255,18 @@
       transform: scale(1.05);
     }
 
-    .box-body {
+    .box-body2 {
       time,
       p {
         color: $accentDark;
       }
 
-      .cover {
-        .new-post-tag {
+      .cover2 {
+        .new-post-tag2 {
           background-color: #000;
         }
 
-        .read-icon {
+        .read-icon2 {
           opacity: 1;
         }
       }
@@ -279,7 +279,7 @@
   }
 
 
-  .category {
+  .category2 {
     display: block;
     height: rem(36px);
     line-height: rem(36px);
@@ -293,7 +293,7 @@
     }
   }
 
-  .box-body {
+  .box-body2 {
     img {
       width: 100%;
       height: auto;
@@ -323,7 +323,7 @@
       line-height: rem(26px);
     }
 
-    .tags a {
+    .tags2 a {
       height: rem(30px);
       line-height: rem(26px);
       color: $accentDark;
@@ -341,11 +341,11 @@
       }
     }
 
-    .cover {
+    .cover2 {
       position: relative;
       display: block;
 
-      .loader {
+      .loader2 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -359,7 +359,7 @@
         z-index: 2;
       }
 
-      .new-post-tag {
+      .new-post-tag2 {
         text-transform: uppercase;
         display: inline-block;
         background: $themeColor;
@@ -374,7 +374,7 @@
         z-index: 3;
       }
 
-      .read-icon {
+      .read-icon2 {
         opacity: 0;
         background-color: rgba(0, 0, 0, 0.7);
         display: flex;
@@ -400,7 +400,7 @@
     }
   }
 
-  .box-info {
+  .box-info2 {
     padding: rem(15px);
   }
 }
